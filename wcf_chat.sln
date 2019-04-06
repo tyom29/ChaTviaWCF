@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcf_chat", "wcf_chat\wcf_chat.csproj", "{6CEFEB18-3B2F-4270-8151-D9CFB0CFF816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatHost", "ChatHost\ChatHost.csproj", "{FC45B876-7B87-4AC9-BA64-47BA9C69BE36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{CA97B380-E941-45FA-82EA-DFF4F317794A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CEFEB18-3B2F-4270-8151-D9CFB0CFF816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEFEB18-3B2F-4270-8151-D9CFB0CFF816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEFEB18-3B2F-4270-8151-D9CFB0CFF816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEFEB18-3B2F-4270-8151-D9CFB0CFF816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC45B876-7B87-4AC9-BA64-47BA9C69BE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC45B876-7B87-4AC9-BA64-47BA9C69BE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC45B876-7B87-4AC9-BA64-47BA9C69BE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC45B876-7B87-4AC9-BA64-47BA9C69BE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA97B380-E941-45FA-82EA-DFF4F317794A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA97B380-E941-45FA-82EA-DFF4F317794A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA97B380-E941-45FA-82EA-DFF4F317794A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA97B380-E941-45FA-82EA-DFF4F317794A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {091C2CD5-0266-43EA-A7DD-4ABFB6D6F8C5}
+	EndGlobalSection
+EndGlobal
